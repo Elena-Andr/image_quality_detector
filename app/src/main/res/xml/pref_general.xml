@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <PreferenceCategory
+        android:title ="@string/pref_image_settings_title"
+        android:key="@string/pref_image_settings_key">
+        <SwitchPreference
+            android:title="@string/pref_image_is_greyscale_title"
+            android:key="@string/pref_image_is_greyscale_key"
+            android:switchTextOn="True"
+            android:switchTextOff="False"
+            android:defaultValue="false">
+        </SwitchPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title ="@string/pref_glare_setting_title"
+        android:key="@string/pref_glare_settings_key">
+        <SwitchPreference
+            android:title="@string/pref_fast_mode_title"
+            android:key="@string/pref_glare_fast_mode_key"
+            android:switchTextOn="True"
+            android:switchTextOff="False"
+            android:defaultValue="false">
+        </SwitchPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title ="@string/pref_noise_setting_title"
+        android:key="@string/pref_noise_settings_key">
+        <SwitchPreference
+            android:title="@string/pref_fast_mode_title"
+            android:key="@string/pref_noise_fast_mode_key"
+            android:switchTextOn="True"
+            android:switchTextOff="False"
+            android:defaultValue="false">
+        </SwitchPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title ="@string/pref_blur_setting_title"
+        android:key="@string/pref_blur_settings_key">
+        <SwitchPreference
+            android:title="@string/pref_fast_mode_title"
+            android:key="@string/pref_blur_fast_mode_key"
+            android:switchTextOn="True"
+            android:switchTextOff="False"
+            android:defaultValue="false">
+        </SwitchPreference>
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Image quality detector</string>
+    <string name="action_settings_title">Settings</string>
+    <string name="photo_capture_button_title">Take photo</string>
+    <string name="pref_image_settings_title">Image Settings</string>
+    <string name="pref_image_settings_key">image_settings</string>
+    <string name="pref_image_is_greyscale_title">Image is greyscale</string>
+    <string name="pref_image_is_greyscale_key">is_greyscale</string>
+    <string name="pref_switch_off_text">False</string>
+    <string name="pref_switch_on_text">True</string>
+    <string name="pref_noise_setting_title">Noise detection settings</string>
+    <string name="pref_fast_mode_title">Fast mode</string>
+    <string name="pref_glare_setting_title">Glare detection settings</string>
+    <string name="pref_blur_setting_title">Blur detection settings</string>
+    <string name="pref_glare_settings_key">glare_settings</string>
+    <string name="pref_noise_settings_key">noise_settings</string>
+    <string name="pref_blur_settings_key">blur_settings</string>
+    <string name="pref_glare_fast_mode_key">glare_fast_mode</string>
+    <string name="pref_noise_fast_mode_key">noise_fast_mode</string>
+    <string name="pref_blur_fast_mode_key">blur_fast_mode</string>
+    <string name="image_menu_save_title">Save image</string>
+    <string name="image_menu_delete_title">Delete image</string>
+    <string name="progress_dialog_message">Please wait...</string>
+    <string name="results_blur_title">BLUR</string>
+    <string name="results_glare_title">GLARE</string>
+    <string name="results_noise_title">NOISE</string>
+    <string name="results_detected_message">Detected / </string>
+    <string name="results_not_detected_message">Not detected / </string>
+    <string name="results_save_photo_suggestion">\nThe photo can be saved</string>
+    <string name="results_delete_photo_suggestion">\nPlease delete the photo and take it again</string>
+    <string name="image_menu_save_color_jpeg_title">Save color image to JPEG</string>
+    <string name="image_menu_save_bw_jpeg_title">Save BW image to JPEG</string>
+    <string name="image_menu_save_color_png_title">Save color image to PNG</string>
+    <string name="image_menu_save_bw_png_title">Save BW image to PNG</string>
+</resources>
